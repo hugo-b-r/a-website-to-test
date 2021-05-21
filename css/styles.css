@@ -1,0 +1,23 @@
+p
+{
+    color:black;
+    background-color:#FA7268;
+    border-radius:50px;
+    font-size: 14pt;
+    font-family: 'Trebuchet MS';
+    text-align: justify;
+}
+
+h1
+{
+    color:black;
+    font-size: 40pt;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2
+{
+    color:black;
+    font-size: 25pt;
+}
