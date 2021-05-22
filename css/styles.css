@@ -1,3 +1,111 @@
+@media all and (max-width:480px)
+{
+    .normal_text
+{
+    color:black;
+    background-color:#FA7268;
+    font-family: 'Comic sans MS';
+    text-align: justify;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14pt;
+    box-shadow:6px 6px 6px black;
+}
+
+h1
+{
+    color:black;
+    text-align: center;
+    font-size: 60pt;
+    text-decoration: underline;
+    
+}
+
+h2
+{
+    color:black;
+    font-size: 35pt;
+}
+
+body
+{
+    background-color: #D5E1E8
+}
+
+footer
+{
+    color:black;
+    background-color:#FA7268;
+    font-family: 'Trebuchet MS';
+    text-align: justify;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 10pt;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+}
+
+li {
+    float: left;
+    background-color: #007497;
+    border-radius:20px;
+    box-shadow:6px 6px 6px black;
+    margin-left: 10px;
+    margin-bottom:10px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:25pt;
+}
+li h1
+{
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 14px 14px 14px 14px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(99, 178, 202);
+    border-radius:20px;
+    box-shadow:3px 3px 3px black;
+}
+
+.heading_and_nav
+{
+    background-color: #f2ff7c;
+    border-radius:20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width:480px)
+{
 .normal_text
 {
     color:black;
@@ -48,14 +156,18 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #009739;
-    border-radius:20px;
-    box-shadow:6px 6px 6px black;
+    
 
 }
 
 li {
     float: left;
+    background-color: #007497;
+    border-radius:20px;
+    box-shadow:6px 6px 6px black;
+    margin-left: 10px;
+    margin-bottom:10px;
+
 }
 
 li a {
@@ -64,9 +176,26 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-top:20px;
+}
+li h1
+{
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 14px 14px 14px 14px;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: rgb(0,100,07);
+    background-color: rgb(99, 178, 202);
+    border-radius:20px;
+    box-shadow:3px 3px 3px black;
+}
+
+.heading_and_nav
+{
+    background-color: #f2ff7c;
+    border-radius:20px;
+}
 }
